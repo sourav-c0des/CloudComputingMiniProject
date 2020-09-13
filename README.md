@@ -10,7 +10,7 @@ link : https://www.professionalcipher.com/p/downloads_22.html
 
 create database users;
 use users;
-create table documents(_ID INT(100), name varchar(100), path varchar(100),name hash_key(100));
+create table documents(_ID INT(100), name varchar(100), path varchar(100),hash_key varchar(100));
 
 4)Open the given folder in Visual Studio Code
 5)Open terminal and change the directory by using cd (foldername)
